@@ -1,8 +1,15 @@
+<div class="img-container">
+<div class="banner_img">
+<img src="https://fr.web.img1.acsta.net/img/bd/7b/bd7b95a00f82aa5f327b69a3b41580d8.jpg/r_1472_982" alt="banner-theater">
+</div>
+</div>
 
 
-<div class="list-movies w-30 m-4">
-<h1>Here is the list of movie categories</h1>
-<% @lists.each do |list| %>
-<li><%= list.name.capitalize %></li>
-<% end %>
+<div class="card-lists">
+  <h1>Here is the list of movie categories</h1>
+  <ul class="list-movies m-3">
+    <% @lists.each do |list| %>
+      <li><%= list.name.capitalize %></li>
+    <% end %>
+  </ul>
 </div>

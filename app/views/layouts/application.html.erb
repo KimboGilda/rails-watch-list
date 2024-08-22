@@ -9,17 +9,9 @@
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
-  <div class="navbar-lewagon">
-  <div class="nav-left">
-    <img src="https://seeklogo.com/images/M/movie-time-cinema-logo-8B5BE91828-seeklogo.com.png" alt="logo"/>
-  </div>
-  <div class="nav-right">
-   <%= link_to "My lists", lists_path %>
-   <%= link_to "Add a new list", new_list_path %>
-  </div>
-  </div>
 
   <body>
+  <%= render "navbar" %>
     <%= yield %>
   </body>
 </html>
