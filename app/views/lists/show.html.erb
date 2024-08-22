@@ -3,5 +3,6 @@
 <% @bookmarks.each do |bookmark| %>
 <i class="fa-solid fa-film"></i> <%= bookmark.movie.title%>
 <i class="fa-solid fa-arrow-right"></i> <%= bookmark.comment%>
+<img src="<%= bookmark.movie.poster_url %>" alt="">
 <% end %>
 </div>
