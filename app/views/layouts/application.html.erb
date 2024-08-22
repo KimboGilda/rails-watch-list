@@ -9,6 +9,14 @@
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
+  <div class="navbar-lewagon">
+  <div class="nav-left">
+  </div>
+  <div class="nav-right">
+   <%= link_to "My lists", lists_path %>
+   <%= link_to "Add a new list", new_list_path %>
+  </div>
+  </div>
 
   <body>
     <%= yield %>
