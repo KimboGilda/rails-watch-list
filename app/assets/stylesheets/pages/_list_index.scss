@@ -44,10 +44,14 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-size: 20px;
   color: #333;
-  // transition: transform 0.3s ease;
 }
 
 .list-movies li:hover {
   background-color: #8978f9;
   color: white;
+}
+
+.list-movies li a {
+  text-decoration: none;
+  color: inherit;
 }

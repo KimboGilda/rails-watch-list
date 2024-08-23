@@ -7,7 +7,7 @@
   <h1>Here is the list of movie categories</h1>
   <ul class="list-movies m-3">
     <% @lists.each do |list| %>
-      <li><%= list.name.capitalize %></li>
+       <li><%= link_to list.name.capitalize, list_path(list) %></li>
     <% end %>
   </ul>
 </div>
