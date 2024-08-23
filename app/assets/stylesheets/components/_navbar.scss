@@ -16,3 +16,31 @@
   display: flex;
   align-items: center;
 }
+
+.nav-right .btn_lists a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-right: 5px;
+  background-color: rgb(94, 94, 236);
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 13px;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.nav-right .btn_add_new_list a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-right: 5px;
+  background-color: rgb(102, 168, 127);
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 13px;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
