@@ -20,7 +20,7 @@
 .nav-right .btn_lists a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  margin-right: 5px;
+  margin-right: 20px;
   background-color: #567af0;
   padding: 5px;
   border-radius: 4px;
@@ -34,8 +34,22 @@
 .nav-right .btn_add_new_list a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  margin-right: 5px;
+  margin-right: 10px;
   background-color: rgb(102, 168, 127);
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 13px;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.nav-right .btn_movies a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-right: 20px;
+  background-color: rgb(237, 141, 146);
   padding: 5px;
   border-radius: 4px;
   font-size: 13px;

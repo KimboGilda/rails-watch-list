@@ -1,0 +1,15 @@
+<div class="movies-container", style="width: 60vw;">
+<% @movies.each do |movie| %>
+    <div class="movie-info d-flex align-items-start">
+    <div class="mv-poster" style="margin: 10px 20px 20px 10px; flex-shrink: 0;">
+        <%= image_tag(movie.poster_url, style: "width: 100px;") %>
+    </div>
+    <div class="mv-title" style="margin-right: 20px; flex-grow: 1;">
+        <h4><%= movie.title %></h4>
+    </div>
+    <div class="mv-overview" style="flex-grow: 2;">
+        <p><%= movie.overview %></p>
+    </div>
+</div>
+<% end %>
+</div>
